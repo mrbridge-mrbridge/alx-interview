@@ -7,5 +7,5 @@ def pascal_triangle(n):
         return []
     pascal = []
     for i in range(n):
-        pascal.append(list(map(int,list(str(11**i)))))
-    return pascal 
+        pascal.append(list(map(int, list(str(11**i)))))
+    return pascal
