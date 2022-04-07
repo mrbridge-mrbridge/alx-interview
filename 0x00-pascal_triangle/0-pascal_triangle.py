@@ -11,7 +11,6 @@ def pascal_triangle(n):
     pascal = []
     if type(n) is not int or n <= 0:
         return []
-
     if n > 0 and n <= 5:
         for i in range(n):
             if i < 5:
