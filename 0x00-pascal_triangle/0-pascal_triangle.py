@@ -16,7 +16,6 @@ def pascal_triangle(n):
         for i in range(n):
             if i < 5:
                 pascal.append(list(map(int, list(str(11**i)))))
-                
     if n > 5:
         for i in range(n):
             attach = []
